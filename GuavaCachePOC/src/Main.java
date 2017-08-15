@@ -19,7 +19,7 @@ public class Main {
 		List<String> searches = new ArrayList<>();
 		Map<String, String> mapTest = new HashMap<>();
 
-		Cache<String, String> cache = CacheBuilder.newBuilder().maximumSize(1000).build(); // look Ma, no CacheLoader
+		Cache<String, String> cache = CacheBuilder.newBuilder().maximumSize(trezentosMil).build(); // look Ma, no CacheLoader
 		String keyConst = "KeyName";
 		String valueConst = "Val";
 
